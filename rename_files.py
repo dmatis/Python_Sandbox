@@ -4,6 +4,8 @@ from sys import argv
 
 script, directory = argv
 
+#Script will parse all files in a given directory, removing
+#all digits at the front of the file
 def rename_files(directory):
     files = os.listdir(directory + "/")
     
